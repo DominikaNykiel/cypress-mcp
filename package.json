@@ -1,0 +1,31 @@
+{
+  "name": "@jprealini/cypress-mcp",
+  "version": "1.0.12",
+  "description": "MCP Server to generate page objects and test scripts for Cypress based on a given url",
+  "main": "./src/index.js",
+  "bin": {
+    "cypress-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "build": "echo \"No build needed\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprealini/cypress-mcp.git"
+  },
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "typescript",
+    "server",
+    "vscode"
+  ],
+  "author": "Juan P. Realini",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.1",
+    "cheerio": "^1.1.0",
+    "puppeteer": "^24.10.2",
+    "zod": "^3.25.67"
+  }
+}
