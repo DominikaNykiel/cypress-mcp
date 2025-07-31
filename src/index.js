@@ -10,9 +10,10 @@ import path from 'path'
 // Crear el servidor
 const server = new McpServer({
     name: "Cypress Generator MCP",
-    version: "1.0.0"
+    version: "1.0.0",
 })
 
+console.log("CypressMCP server started");
 // Utility functions for file operations
 class CypressFileManager {
     constructor() {
