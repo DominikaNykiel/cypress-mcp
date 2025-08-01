@@ -14,6 +14,7 @@ const server = new McpServer({
 })
 
 console.log("CypressMCP server started");
+
 // Utility functions for file operations
 class CypressFileManager {
     constructor() {
